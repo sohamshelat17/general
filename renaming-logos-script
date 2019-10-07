@@ -4,4 +4,4 @@ s'
 >> [Array]::Reverse($items)
 >> $items | ForEach-Object { Rename-Item -Path $_ -NewName ($_ -replace '&client_id=62fac753f33cd25a3b470a8d9dbeb49656becdfc41b6', '') -Force -Verbose }
 
-#Dir /b > Myfileslist.txt
+###Dir /b > Myfileslist.txt
